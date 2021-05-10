@@ -1,0 +1,65 @@
+{
+"algo": "cryptonight-upx/2",
+"api": {
+"port": 0,
+"access-token": null,
+"id": null,
+"worker-id": null,
+"ipv6": false,
+"restricted": true
+},
+"asm": true,
+"autosave": true,
+"av": 1,
+"background": false,
+"colors": true,
+"cpu-affinity": null,
+"cpu-priority": null,
+"donate-level": 1,
+"huge-pages": true,
+"hw-aes": null,
+"log-file": null,
+"max-cpu-usage": 95,
+"pools": [
+{
+"url": "upx.miningocean.org:4352",
+"user": "UPX1UXaGRTSN7h2VyZcBar24HtDTXrcV9PW73REDJCNn3RFUHj2hihNiLznSFD1xkHgqq661WFoE1XfLks9Emrr955ZDKu51Ex",
+"pass": "MINADOR",
+"rig-id": null,
+"nicehash": false,
+"keepalive": false,
+"variant": "upx/2",
+"enabled": true,
+"tls": false,
+"tls-fingerprint": null
+}
+],
+"print-time": 60,
+"retries": 5,
+"retry-pause": 5,
+"safe": false,
+"threads": [
+{
+"low_power_mode": 2,
+"affine_to_cpu": false,
+"asm": true
+},
+{
+"low_power_mode": 2,
+"affine_to_cpu": false,
+"asm": true
+},
+{
+"low_power_mode": 2,
+"affine_to_cpu": false,
+"asm": true
+},
+{
+"low_power_mode": 2,
+"affine_to_cpu": false,
+"asm": true
+},
+],
+"user-agent": null,
+"watch": false
+}
